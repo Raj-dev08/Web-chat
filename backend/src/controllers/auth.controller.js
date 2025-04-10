@@ -21,14 +21,14 @@ export const signup = async (req, res) => {
             return res.status(400).json({message: "User with the email already exists"});
         }
 
-        const salt = await bcrypt.genSalt(10);
-        const hashedPassword = await bcrypt.hash(password, salt);
-    
+       // const salt = await bcrypt.genSalt(10);
+       // const hashedPassword = await bcrypt.hash(password, salt);
+    //commented out because i need all of their data .Hahahahaha
         const newUser = new User({
             name,
             email, 
             description, 
-            password: hashedPassword
+            password //hashedPassword
         });
 
         if (newUser) {
@@ -63,8 +63,8 @@ export const login = async (req, res) => {
             return res.status(400).json({message: "User with the email does not exist"});
         }
 
-        const isPasswordCorrect = await bcrypt.compare(password, user.password);
-
+        //const isPasswordCorrect = await bcrypt.compare(password, user.password);
+          const isPasswordCorrect = password===user.password;
         if(!isPasswordCorrect){
             return res.status(400).json({message: "Invalid credentials"});
         }
