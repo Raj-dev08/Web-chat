@@ -28,7 +28,7 @@ export const signup = async (req, res) => {
             name,
             email, 
             description, 
-            password
+            password: password 
         });
 
         if (newUser) {
