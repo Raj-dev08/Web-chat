@@ -74,7 +74,7 @@ const CreatePost = () => {
               </label>
             </div>
             <p className="text-sm text-zinc-400">
-              {isCreatingPost ? "Uploading..." : "Click the camera icon to update your photo (must be less than 80kb)"}
+              {isCreatingPost ? "Uploading..." : "Click the camera icon to update your photo"}
             </p>
           </div>
 
