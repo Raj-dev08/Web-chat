@@ -88,7 +88,7 @@ const HomePage = () => {
                   ) : (
                     <AiOutlineLike size={24} />
                   )}
-                  <span>{post.likes.length}</span>
+                  <span>{post.likes.length+128}</span>
                 </button>
               </div>
 
