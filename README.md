@@ -19,7 +19,7 @@ host it on render ir vercel
 
 ## demo 
 click on this link to see it
-https://web-chat-x0sa.onrender.com
+https://web-chat-x0sa.onrender.com/
 
 ## TODO
 - Improve styling
