@@ -14,7 +14,7 @@ A social media app with basic crud frat.
 ## How to Run
 clone the repo
 add env variable in backend 
-npm run dev on both server amd client 
+npm run dev on both server and client 
 host it on render ir vercel
 
 ## demo 
