@@ -1,6 +1,6 @@
 ## WEB-CHAT
 
-A social media app with basic crud frat.
+A social media app with basic crud features
 
 ## Features
 - Real time chat (with socket io)
