@@ -69,7 +69,6 @@ const HomePage = () => {
               <Link to="/messages">
                 <div className="ml-3">
                   <p className="font-semibold">{post.user.name}</p>
-                  <p className="text-sm">{new Date(post.createdAt).toLocaleString()}</p>
                 </div>
               </Link>
             </div>
