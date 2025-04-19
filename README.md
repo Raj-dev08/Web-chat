@@ -18,8 +18,7 @@ npm run dev on both server and client
 host it on render ir vercel
 
 ## demo 
-click on this link to see it
-https://web-chat-x0sa.onrender.com/
+clone the repo and check 
 
 ## TODO
 - Improve styling
